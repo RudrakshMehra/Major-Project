@@ -1,7 +1,6 @@
 flask
-numpy==1.24.3
+numpy
 opencv-python-headless
 werkzeug
-tensorflow==2.12.0
-keras==2.12.0
+tensorflow==2.21.0
 joblib
