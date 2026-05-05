@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: agrovision
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python "Backend and Model/app.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
