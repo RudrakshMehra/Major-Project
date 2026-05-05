@@ -2,5 +2,5 @@ flask
 numpy
 opencv-python-headless
 werkzeug
-tensorflow
+tensorflow==2.13.0
 joblib
